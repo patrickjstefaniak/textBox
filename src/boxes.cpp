@@ -40,12 +40,12 @@ boxes::boxes(float x, float y, string t, string mS, string pS, string pB, Color 
     moreA = 0;
 }
 
-boxes::boxes(string t, string mS, string pS, string pB){
+boxes::boxes(string t, string mS, string pS, string pB, Color b, Color f){
     xPos = 0;
     yPos = 0;
     title = t;
-    bCol = Color(0,0,0);
-    fCol = Color(0,0,0);
+    bCol = b;
+    fCol = f;
     origSY = sY;
     origX = xPos;
     mainSub = mS;
@@ -70,7 +70,7 @@ void boxes::drawBox(){
     gl::color(fCol);
     
     bfont->drawString(title, vec2(xPos + (bwid / 2) - (bfont->measureString(title).x / 2) , sY + yPos));
-    sfont->drawString(mainSub,  vec2(xPos + (bwid / 2) - (sfont->measureString(mainSub).x / 2) , sY + 20 + yPos));
+    sfont->drawString(mainSub,  vec2(xPos + (bwid / 2) - (sfont->measureString(mainSub).x / 2) , sY + 25 + yPos));
     
     gl::color(ColorA(fCol.r, fCol.g, fCol.b, moreA));
     

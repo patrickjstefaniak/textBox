@@ -21,7 +21,7 @@ class boxes {
 public:
     boxes () {}
     boxes (float x, float y, string title, string mainSub, string pageSub, string pageBody, Color c, Color f);
-    boxes (string title, string mainSub, string pageSub, string pageBody);
+    boxes (string title, string mainSub, string pageSub, string pageBody, Color c, Color f);
     
     void drawBox();
     void mouseIn(vec2 mPos);

@@ -31,7 +31,9 @@ void boxControl::loadBoxes(){
             string s = b["mainSub"].getValue();
             string ps = b["pageSub"].getValue();
             string pb = b["pageBody"].getValue();
-            boxes cBox = boxes(t , s , ps, pb);
+            Color bC = Color(b["boxColorR"].getValue<float>(), b["boxColorG"].getValue<float>(), b["boxColorB"].getValue<float>());
+            Color tC = Color(b["textColorR"].getValue<float>(), b["textColorG"].getValue<float>(), b["textColorB"].getValue<float>());
+            boxes cBox = boxes(t , s , ps, pb, bC, tC);
             vBoxes.push_back(cBox);
             
             
@@ -58,8 +60,6 @@ void boxControl::placeBoxes(){
         b.yPos = floor(i / 2) * (getWindowHeight() / 2);
         b.origSY = b.sY;
         b.origX = b.xPos;
-        b.bCol = Color(i/4.0, 1, 1);
-        b.fCol = Color(.1,.1,.1);
         i ++;
     }
 }

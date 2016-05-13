@@ -4,25 +4,49 @@
                "title" : "1.jpg",
                "mainSub" : "cat1",
                "pageSub" : "pagesub1",
-               "pageBody" : "pageBody1"
+               "pageBody" : "           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce molestie et odio efficitur rutrum. Quisque interdum urna ut lacinia tristique. Suspendisse sed risus risus. Fusce consequat dignissim scelerisque. Donec viverra tellus at est posuere pharetra. Praesent hendrerit neque sed fringilla sodales. Curabitur lacus erat, accumsan in dictum nec, tempor nec orci.\n\n            Pellentesque eget pulvinar ligula, et egestas justo. Donec id quam vitae arcu porttitor suscipit. In ac augue et libero facilisis porttitor. Quisque ut diam sit amet mauris efficitur suscipit. Vivamus eget cursus justo. Donec fringilla placerat tempor. Donec et dolor fringilla, rutrum nisi et, rutrum velit. Praesent scelerisque elit id nisi tincidunt, ac malesuada turpis pretium. Proin sollicitudin ex vel augue rhoncus fringilla ut id purus. Fusce nec quam nec dolor convallis hendrerit. Fusce diam tellus, posuere a mauris a, sodales fermentum arcu. Curabitur eget iaculis diam, ut luctus ex. Pellentesque ultricies, diam vitae elementum pretium, diam ante vestibulum justo, id auctor neque metus sit amet lectus.\n\n            Donec sollicitudin lectus nec odio lacinia viverra. Vestibulum sagittis nunc ut ante fermentum eleifend. Proin scelerisque ullamcorper libero, et volutpat tellus pharetra eu. Sed ante velit, tincidunt vel malesuada sed, congue ut felis. Aliquam malesuada interdum metus eu porttitor. Nullam non commodo augue, eu lacinia ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque quis nisi libero.",
+               "boxColorR" : 0.2,
+               "boxColorG" : 0.4,
+               "boxColorB" : 0.8,
+               "textColorR" : 0.1,
+               "textColorG" : 0.1,
+               "textColorB" : 0.1
               },
               {
                "title" : "2.jpg",
                "mainSub" : "cat2",
                "pageSub" : "pagesub2",
-               "pageBody" : "pageBody2"
+               "pageBody" : "           Donec suscipit egestas ante, eget condimentum tortor sollicitudin luctus. Pellentesque at mi mi. Quisque lorem sem, scelerisque at tristique sit amet, posuere egestas urna. Duis volutpat diam tortor, aliquet hendrerit libero malesuada fermentum. Mauris sit amet diam iaculis, interdum dui a, varius mauris. Fusce sapien dolor, lobortis sed urna vitae, cursus cursus diam. Phasellus ac facilisis erat. Vivamus sit amet velit non quam congue eleifend. Fusce malesuada pulvinar dolor eget tempus. Etiam consequat metus ac dui luctus, ac suscipit ipsum efficitur. Vivamus eget convallis odio.\n\n            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ultrices a neque sed volutpat. Fusce massa tortor, mattis sit amet sagittis sit amet, sodales nec justo. Donec mollis erat non felis pellentesque pretium. Fusce congue ante rutrum, luctus lectus non, tristique felis. Nulla lacinia tellus ac ante semper volutpat. Praesent id enim nisi. Fusce ut mollis quam. Cras mollis libero diam, in hendrerit lacus interdum id. Sed feugiat ut quam vitae dignissim. Mauris ut ultrices orci. Vivamus odio lectus, eleifend dignissim iaculis eu, pharetra vitae odio.",
+               "boxColorR" : 0.9,
+               "boxColorG" : 0.5,
+               "boxColorB" : 0.6,
+               "textColorR" : 0.1,
+               "textColorG" : 0.1,
+               "textColorB" : 0.1
               },
               {
                "title" : "3.jpg",
                "mainSub" : "cat3",
                "pageSub" : "pagesub3",
-               "pageBody" : "pageBody3"
+               "pageBody" : "           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce molestie et odio efficitur rutrum. Quisque interdum urna ut lacinia tristique. Suspendisse sed risus risus. Fusce consequat dignissim scelerisque. Donec viverra tellus at est posuere pharetra. Praesent hendrerit neque sed fringilla sodales. Curabitur lacus erat, accumsan in dictum nec, tempor nec orci.\n\n            Pellentesque eget pulvinar ligula, et egestas justo. Donec id quam vitae arcu porttitor suscipit. In ac augue et libero facilisis porttitor. Quisque ut diam sit amet mauris efficitur suscipit. Vivamus eget cursus justo. Donec fringilla placerat tempor. Donec et dolor fringilla, rutrum nisi et, rutrum velit. Praesent scelerisque elit id nisi tincidunt, ac malesuada turpis pretium. Proin sollicitudin ex vel augue rhoncus fringilla ut id purus. Fusce nec quam nec dolor convallis hendrerit. Fusce diam tellus, posuere a mauris a, sodales fermentum arcu. Curabitur eget iaculis diam, ut luctus ex. Pellentesque ultricies, diam vitae elementum pretium, diam ante vestibulum justo, id auctor neque metus sit amet lectus.\n\n            Donec sollicitudin lectus nec odio lacinia viverra. Vestibulum sagittis nunc ut ante fermentum eleifend. Proin scelerisque ullamcorper libero, et volutpat tellus pharetra eu. Sed ante velit, tincidunt vel malesuada sed, congue ut felis. Aliquam malesuada interdum metus eu porttitor. Nullam non commodo augue, eu lacinia ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque quis nisi libero.",
+               "boxColorR" : 0.2,
+               "boxColorG" : 0.5,
+               "boxColorB" : 0.1,
+               "textColorR" : 0.8,
+               "textColorG" : 0.8,
+               "textColorB" : 0.9
               },
               {
                "title" : "4.jpg",
                "mainSub" : "cat4",
                "pageSub" : "pagesub4",
-               "pageBody" : "pageBody4"
+               "pageBody" : "           Donec suscipit egestas ante, eget condimentum tortor sollicitudin luctus. Pellentesque at mi mi. Quisque lorem sem, scelerisque at tristique sit amet, posuere egestas urna. Duis volutpat diam tortor, aliquet hendrerit libero malesuada fermentum. Mauris sit amet diam iaculis, interdum dui a, varius mauris. Fusce sapien dolor, lobortis sed urna vitae, cursus cursus diam. Phasellus ac facilisis erat. Vivamus sit amet velit non quam congue eleifend. Fusce malesuada pulvinar dolor eget tempus. Etiam consequat metus ac dui luctus, ac suscipit ipsum efficitur. Vivamus eget convallis odio.\n\n            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ultrices a neque sed volutpat. Fusce massa tortor, mattis sit amet sagittis sit amet, sodales nec justo. Donec mollis erat non felis pellentesque pretium. Fusce congue ante rutrum, luctus lectus non, tristique felis. Nulla lacinia tellus ac ante semper volutpat. Praesent id enim nisi. Fusce ut mollis quam. Cras mollis libero diam, in hendrerit lacus interdum id. Sed feugiat ut quam vitae dignissim. Mauris ut ultrices orci. Vivamus odio lectus, eleifend dignissim iaculis eu, pharetra vitae odio.",
+               "boxColorR" : 0.8,
+               "boxColorG" : 0.7,
+               "boxColorB" : 1.0,
+               "textColorR" : 0.1,
+               "textColorG" : 0.1,
+               "textColorB" : 0.1
               }
               ]
 }
