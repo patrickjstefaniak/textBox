@@ -42,7 +42,6 @@ void boxControl::loadBoxes(){
         placeBoxes();
         
         //whereAreBoxes();
-        //just assuming 4, to test json
         
         
     }
@@ -55,13 +54,36 @@ void boxControl::placeBoxes(){
     int i = 0;
     for(boxes &b: vBoxes){
         b.bwid = getWindowWidth()/2;
-        b.bhei = getWindowHeight()/2;
         b.xPos = (i % 2) * (getWindowWidth() / 2);
-        b.yPos = floor(i / 2) * (getWindowHeight() / 2);
+        
+        //if there is an even number of boxes
+        if(numBoxes % 2 == 0){
+            
+            //math here is wrong ! only works for 4, not 2 or 6
+            
+            b.bhei = getWindowHeight() / (numBoxes / 2);
+            b.yPos = floor(i / (numBoxes/2)) * b.bhei;
+            b.sY = b.bhei / 2;
+            
+        //if there is odd number of boxes
+        }else{
+            if((i + 1) % 2 == 0){
+                b.bhei = getWindowHeight() / ((numBoxes - 1) / 2);
+                b.yPos = floor(i / (numBoxes/2)) * b.bhei;
+                b.sY = b.bhei / 2;
+            }else{
+                b.bhei = getWindowHeight() / ((numBoxes + 1) / 2);
+                b.yPos = floor(i / (numBoxes/2)) * b.bhei;
+                b.sY = b.bhei / 2;
+            }
+        }
+        //b.bhei = getWindowHeight()/2;
+        //b.yPos = floor(i / 2) * (getWindowHeight() / 2);
         b.origSY = b.sY;
         b.origX = b.xPos;
         i ++;
     }
+    whereAreBoxes();
 }
 
 void boxControl::moveBoxesIn(){
