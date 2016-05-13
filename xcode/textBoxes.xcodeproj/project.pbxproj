@@ -18,6 +18,7 @@
 		00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995591B128DF400A5C623 /* IOSurface.framework */; };
 		1581FDF03EAC47C08CD85708 /* textBoxesApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 065A5D9D09174E3F9EEBC75B /* textBoxesApp.cpp */; };
 		4AB6F0331CE390A600B448F1 /* boxes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6F0321CE390A600B448F1 /* boxes.cpp */; };
+		4AB6F0381CE656A900B448F1 /* boxControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6F0371CE656A900B448F1 /* boxControl.cpp */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5EDD650941584449896BC413 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = CA661552D9B749BE8C5506EC /* CinderApp.icns */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -40,6 +41,8 @@
 		3020643CF6B74D17B7FB76E6 /* textBoxes_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = textBoxes_Prefix.pch; sourceTree = "<group>"; };
 		4AB6F0321CE390A600B448F1 /* boxes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = boxes.cpp; path = ../src/boxes.cpp; sourceTree = "<group>"; };
 		4AB6F0341CE390B700B448F1 /* boxes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = boxes.h; path = ../src/boxes.h; sourceTree = "<group>"; };
+		4AB6F0371CE656A900B448F1 /* boxControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = boxControl.cpp; sourceTree = "<group>"; };
+		4AB6F0391CE656B800B448F1 /* boxControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boxControl.h; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		7B7DA241D54B4C98AF48FDC3 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* textBoxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textBoxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +85,8 @@
 				065A5D9D09174E3F9EEBC75B /* textBoxesApp.cpp */,
 				4AB6F0321CE390A600B448F1 /* boxes.cpp */,
 				4AB6F0341CE390B700B448F1 /* boxes.h */,
+				4AB6F0371CE656A900B448F1 /* boxControl.cpp */,
+				4AB6F0391CE656B800B448F1 /* boxControl.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			files = (
 				1581FDF03EAC47C08CD85708 /* textBoxesApp.cpp in Sources */,
 				4AB6F0331CE390A600B448F1 /* boxes.cpp in Sources */,
+				4AB6F0381CE656A900B448F1 /* boxControl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

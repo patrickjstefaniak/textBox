@@ -23,12 +23,6 @@
                "mainSub" : "cat4",
                "pageSub" : "pagesub4",
                "pageBody" : "pageBody4"
-              },
-              {
-               "title" : "5.jpg",
-               "mainSub" : "cat5",
-               "pageSub" : "pagesub5",
-               "pageBody" : "pageBody5"
               }
               ]
 }
